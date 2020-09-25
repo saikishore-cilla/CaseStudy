@@ -1,0 +1,8 @@
+create database test;
+use test;
+create table employee(empid int auto_increment primary key,ename varchar(20),
+eadd varchar(30),dob date,exp int,DOJ date);
+
+
+select *from employee;
+drop table employee;
